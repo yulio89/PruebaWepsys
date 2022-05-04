@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+.container {
+    margin-top:50px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+th{
+    font-weight: bold !important;
+    text-align: center !important;
+}
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.errormsg{
+    color:red;
+}
